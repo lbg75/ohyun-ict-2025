@@ -63,6 +63,13 @@ document.querySelector("#writing-start").addEventListener("click",()=>{
         document.querySelector("#post-form").style.display = "block"
     }
 })
+document.querySelector("#board-start").addEventListener("click",()=>{
+    if (document.querySelector("#board").style.display == "block") {
+        document.querySelector("#board").style.display = "none"
+    } else {
+        document.querySelector("#board").style.display = "block"
+    }
+})
 
 
 init()
