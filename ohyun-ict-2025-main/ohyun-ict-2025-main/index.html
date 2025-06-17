@@ -7,19 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="box" >
+    <div id="box">
         
     </div>
 </body>
 <script>
-    var a = 0
     document.querySelector("#box").addEventListener("click",(e)=>{
-        a = a + 1
-        if ( a%2 == 1) {
-            e.target.style.backgroundColor = "#FF0000"
-        } else{
-            e.target.style.backgroundColor = "#0f0f0f"
-        }
+        e.target.style.backgroundColor = "#0f0f0f"
     });
 </script>
 <style>

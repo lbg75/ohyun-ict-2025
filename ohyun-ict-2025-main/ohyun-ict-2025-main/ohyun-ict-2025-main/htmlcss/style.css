@@ -1,0 +1,30 @@
+.container{
+        border: solid 1px #e0e0e0;
+        border-radius: 12px;
+        width: 602px;
+        padding: 20px 24px 8px;
+        margin: auto;
+    }
+    h3{
+        display: inline;
+        padding-right: 6px;
+        min-height: 25px;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 25px;
+    }
+    
+    img{
+        width: 272px;
+        border-radius: 12px;
+    }
+    .time{
+        color: #6a6a6a;
+    }
+    .food{
+        color: #8e8e8e;
+        padding-top: 4px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+    }
